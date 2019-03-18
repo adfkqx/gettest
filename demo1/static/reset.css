@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+	cursor: pointer;
+   
+}
+img{
+    border: 0;
+	border: none 0;
+}
+button{
+    border:none;
+    text-decoration: none;
+}
+input{
+border: 0;
+outline: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear:before,.clear:after{
+    display: inline-block;
+    content: '';
+
+}
+.clear:after{
+    clear: both;
+}
+.clear{
+    zoom: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+em {
+    font-style: normal;
+}
+
+/*-----------*/
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+html{
+    
+        -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+
+    line-height: 1.15;
+}
+body {
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
+        text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    
+    color: #666;
+    font-size: 14px;
+}
+a{
+     color: #5079d9;
+     cursor: pointer;
+     transition: all .15s ease-out;
+     text-decoration: none;
+}
+button,input,optgroup,select,textarea{
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+button,input{
+    overflow: visible;
+}
+input:invalid,input:valid{
+    background-color: transparent;
+    box-shadow: none;
+}
